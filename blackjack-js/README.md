@@ -59,4 +59,6 @@ Potential enhancements could include:
 - Multiplayer support
 - Animation effects for card dealing
 
-### Give it a try!👍![ZachGalifianakisDfxGIF](https://github.com/user-attachments/assets/48a0164e-b1d1-4fae-8136-102d5c30c050)
+## Give it a try!👍
+
+![ZachGalifianakisDfxGIF](https://github.com/user-attachments/assets/48a0164e-b1d1-4fae-8136-102d5c30c050)
