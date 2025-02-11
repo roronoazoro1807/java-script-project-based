@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Speech to Text</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <h2>Speech to Text Converter</h2>
+    <select id="languageSelect">
+      <option value="en-US">English (US)</option>
+      <option value="hi-IN">Hindi</option>
+      <option value="fr-FR">French</option>
+      <option value="es-ES">Spanish</option>
+    </select>
+    <div id="result">Your speech will appear here...</div>
+    <div class="button-container">
+      <button onclick="startConverting()">
+        <i class="fa fa-microphone"></i> Start
+      </button>
+      <button onclick="stopConverting()">
+        <i class="fa fa-stop"></i> Stop
+      </button>
+      <button onclick="clearResult()">
+        <i class="fa fa-trash"></i> Clear
+      </button>
+      <button onclick="downloadResult()">
+        <i class="fa fa-download"></i> Save
+      </button>
+    </div>
+    <button class="toggle-mode" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
