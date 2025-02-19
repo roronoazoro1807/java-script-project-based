@@ -27,7 +27,7 @@ A simple **Currency Converter** web application that fetches real-time exchange 
 4. The exchange rate and converted amount will be displayed.
 
 ## API Details
-- The application fetches exchange rates from the [Currency API](https://latest.currency-api.pages.dev/).
+- The application fetches exchange rates from the [Currency API]([https://latest.currency-api.pages.dev/](https://github.com/fawazahmed0/exchange-api)).
 - The request URL follows this pattern: 
   ```
   https://latest.currency-api.pages.dev/v1/currencies/{base_currency}.json
