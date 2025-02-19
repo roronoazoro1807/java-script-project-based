@@ -12,7 +12,7 @@ A simple **Currency Converter** web application that fetches real-time exchange 
 - **HTML**: Structure of the web page.
 - **CSS**: Styling and layout.
 - **JavaScript**: Logic for fetching exchange rates and updating the UI.
-- **API**: `https://latest.currency-api.pages.dev/v1/currencies`
+- **API**:`(https://latest.currency-api.pages.dev/v1/currencies/{base_currency}.json)`
 
 
 ## Setup Instructions
@@ -27,7 +27,8 @@ A simple **Currency Converter** web application that fetches real-time exchange 
 4. The exchange rate and converted amount will be displayed.
 
 ## API Details
-- The application fetches exchange rates from the [Currency API]([https://latest.currency-api.pages.dev/](https://github.com/fawazahmed0/exchange-api)).
+- The application fetches exchange rates from the `https://github.com/fawazahmed0/exchange-api`
+- you can find the API in this repo
 - The request URL follows this pattern: 
   ```
   https://latest.currency-api.pages.dev/v1/currencies/{base_currency}.json
