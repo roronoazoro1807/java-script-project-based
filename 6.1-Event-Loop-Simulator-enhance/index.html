@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Loop Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-gray-900 flex flex-col items-center p-10 text-white">
+    <h1 class="text-3xl font-bold mb-6">Event Loop Simulator</h1>
+
+    <div class="flex gap-6">
+      <!-- Call Stack -->
+      <div class="w-40 p-4 bg-gray-800 rounded-lg">
+        <h2 class="text-center font-semibold mb-2">Call Stack</h2>
+        <ul
+          id="callStack"
+          class="h-40 bg-gray-700 rounded p-2 overflow-auto"
+        ></ul>
+      </div>
+
+      <!-- Web APIs -->
+      <div class="w-40 p-4 bg-gray-800 rounded-lg">
+        <h2 class="text-center font-semibold mb-2">Web APIs</h2>
+        <ul
+          id="webApis"
+          class="h-40 bg-gray-700 rounded p-2 overflow-auto"
+        ></ul>
+      </div>
+
+      <!-- Task Queue -->
+      <div class="w-40 p-4 bg-gray-800 rounded-lg">
+        <h2 class="text-center font-semibold mb-2">Task Queue</h2>
+        <ul
+          id="taskQueue"
+          class="h-40 bg-gray-700 rounded p-2 overflow-auto"
+        ></ul>
+      </div>
+
+      <!-- Microtask Queue -->
+      <div class="w-40 p-4 bg-gray-800 rounded-lg">
+        <h2 class="text-center font-semibold mb-2">Microtask Queue</h2>
+        <ul
+          id="microtaskQueue"
+          class="h-40 bg-gray-700 rounded p-2 overflow-auto"
+        ></ul>
+      </div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="mt-6 flex gap-4">
+      <button
+        id="syncTask"
+        class="px-4 py-2 bg-blue-500 rounded-lg hover:bg-blue-600"
+      >
+        Add Sync Task
+      </button>
+      <button
+        id="asyncTask"
+        class="px-4 py-2 bg-green-500 rounded-lg hover:bg-green-600"
+      >
+        Add Async Task
+      </button>
+      <button
+        id="promiseTask"
+        class="px-4 py-2 bg-yellow-500 rounded-lg hover:bg-yellow-600"
+      >
+        Add Promise Task
+      </button>
+      <button
+        id="runLoop"
+        class="px-4 py-2 bg-red-500 rounded-lg hover:bg-red-600"
+      >
+        Run Event Loop
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
