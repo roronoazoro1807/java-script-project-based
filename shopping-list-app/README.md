@@ -32,7 +32,7 @@ This is a simple Shopping List application where users can add, edit, delete, an
 3. The total cost updates automatically.
 4. Click `Toggle Theme` to switch between **light and dark mode**.
 
-## 🛠 Code Explanation
+## Code Explanation
 
 ###  `script.js`
 - **Selecting Elements**: Uses `document.getElementById()` to get HTML elements.
