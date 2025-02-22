@@ -13,22 +13,22 @@ This is a simple Shopping List application where users can add, edit, delete, an
 
 ##  Features
 
-✅ Add new shopping items with price and quantity  
-✅ Edit existing items  
-✅ Delete items from the list  
-✅ Mark items as purchased/unpurchased  
-✅ Display total cost of all items  
-✅ Toggle between light and dark mode  
+- Add new shopping items with price and quantity  
+- Edit existing items  
+- Delete items from the list  
+- Mark items as purchased/unpurchased  
+- Display total cost of all items  
+- Toggle between light and dark mode  
 
 
 
-## 🎮 How to Use
+##  How to Use
 
 1. **Enter item details** (Name, Price, Quantity) and click `Add Item`.
 2. The item appears in the list with buttons to:
-   - 📝 **Edit**: Modify item details.
-   - ✅ **Purchased/Undo**: Mark as purchased or undo.
-   - ❌ **Delete**: Remove item from the list.
+   -  **Edit**: Modify item details.
+   -  **Purchased/Undo**: Mark as purchased or undo.
+   -  **Delete**: Remove item from the list.
 3. The total cost updates automatically.
 4. Click `Toggle Theme` to switch between **light and dark mode**.
 
