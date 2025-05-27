@@ -19,8 +19,6 @@ A modern web application that converts speech to text in real-time using the Web
 - Web Speech API
 - Font Awesome Icons
 
-## Technical Implementation
-
 ### HTML Components
 - Language selection dropdown
 - Result display area
