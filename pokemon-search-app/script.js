@@ -2,8 +2,7 @@ async function searchPokemon() {
   const name = document
     .getElementById("pokemonInput")
     .value.trim()
-    .toLowerCase()
-    .trim();
+    .toLowerCase();
 
   const query = `
   {
