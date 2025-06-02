@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Nothing Style</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="theme-toggle" id="themeToggle">
+      <div class="toggle-dot"></div>
+    </div>
+
+    <div class="background-pattern"></div>
+
+    <div class="login-container">
+      <h1 class="dot-matrix-heading">SIGN IN</h1>
+
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your@email.com"
+            required
+          />
+          <div class="error-message" id="emailError">Invalid email format</div>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="••••••••"
+            required
+          />
+          <div class="error-message" id="passwordError">
+            Password is required
+          </div>
+        </div>
+
+        <button type="submit" class="login-button" id="loginBtn">
+          <span id="btnText">Continue</span>
+        </button>
+
+        <div class="loading-dots" id="loadingDots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </form>
+
+      <a href="#" class="forgot-password">Forgot Password?</a>
+
+      <a href="#" class="signup-link">Create Account</a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
